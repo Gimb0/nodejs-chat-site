@@ -1,7 +1,7 @@
 {
   "name": "LearningNodeJS",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Messaging Web App made with nodeJS",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
