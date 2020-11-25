@@ -6,12 +6,9 @@ var io = require('socket.io')(http)
 
 app.use(express.static(__dirname))
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.urlencoded({extended: false}))s
 
-var messages = [
-	{name: 'Gumbi', message: 'Hey'},
-	{name: 'Gimbo', message: 'Hello'}
-]
+var messages = []
 
 app.get('/messages', (req, res) => {
 	res.send(messages)
